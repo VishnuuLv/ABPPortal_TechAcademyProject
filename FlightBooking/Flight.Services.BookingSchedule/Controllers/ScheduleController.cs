@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace Flight.Services.BookingSchedule.Controllers
 {
     [Route("api/Schedule")]
-    [Authorize(Policy = "Admin")]
+    
 
     public class ScheduleController : Controller
     {
@@ -63,7 +63,7 @@ namespace Flight.Services.BookingSchedule.Controllers
         }
 
         [HttpGet]
-        [AllowAnonymous]
+        
         [Route("GetScheduleByID/{scheduleDetailsId}")]
         public async Task<object> GetScheduleByID(int scheduleDetailsId)
         {
@@ -175,7 +175,7 @@ namespace Flight.Services.BookingSchedule.Controllers
             return _response;
         }
         [HttpGet]
-        [AllowAnonymous]
+        
         [Route("{date:DateTime}")]
         public async Task<object> Get(DateTime date)
         {
@@ -193,7 +193,7 @@ namespace Flight.Services.BookingSchedule.Controllers
             return _response;
         }
         [HttpGet]
-        [AllowAnonymous]
+        
         [Route("{source}/{destination}")]
         public async Task<object> Get(string source, string destination)
         {
@@ -211,7 +211,7 @@ namespace Flight.Services.BookingSchedule.Controllers
             return _response;
         }
         [HttpGet]
-        [AllowAnonymous]
+        
         [Route("{source}/{destination}/{traveldate:Datetime}")]
         public async Task<object> Get(string source, string destination, DateTime traveldate)
         {
