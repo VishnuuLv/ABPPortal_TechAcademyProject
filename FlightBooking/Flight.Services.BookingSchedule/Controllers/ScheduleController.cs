@@ -27,7 +27,7 @@ namespace Flight.Services.BookingSchedule.Controllers
         }
 
         [HttpGet("GetSchedule")]
-        [AllowAnonymous]
+        
         public async Task<object> Get()
         {
             try
