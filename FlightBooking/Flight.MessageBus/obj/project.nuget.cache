@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "f07n6TZN6FY6qrhuOTaShIJ237kkZTf0Jcw1SdDsnvheE73oPrkmGVDLxsBYDVmdHix+B0+0chNQP8T1IqJCTQ==",
+  "success": true,
+  "projectFilePath": "D:\\ABP_FinalV2\\FlightBooking\\Flight.MessageBus\\Flight.MessageBus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
