@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace Flight.Services.BookingSchedule.Controllers
 {
     [Route("api/Schedule")]
-    
+    [AllowAnonymous]
 
     public class ScheduleController : Controller
     {
@@ -45,7 +45,7 @@ namespace Flight.Services.BookingSchedule.Controllers
         }
 
         [HttpGet("GetAllSchedule")]
-        [AllowAnonymous]
+        
         public async Task<object> GetAllSchedule()
         {
             try
