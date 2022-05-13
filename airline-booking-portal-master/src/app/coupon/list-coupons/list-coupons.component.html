@@ -30,7 +30,7 @@
           <td>{{coupon.validityStartDate | date:"shortDate"}}</td>
           <td>{{coupon.validityEndDate | date:"shortDate"}}</td>
           <td  >
-            <span [ngStyle]="{'background-color': (coupon.isActive==='Y' ) ?
+            <span  class="badge badge-pill badge-success"  [ngStyle]="{'background-color': (coupon.isActive==='Y' ) ?
             '#81CB21'  :'#DC3D1D'}">
             {{coupon.isActive==='Y' ?'Active':'InActive'}}
           </span>
