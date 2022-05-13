@@ -1,3 +1,12 @@
+Set up multiple start up project 
+	1. Flight.Services.BookingSchedule
+	2. Flight.Services.CouponAPI
+	3. Flight.Services.LoggingAPI
+	4. Flight.Services.ManageAPI
+	5. Flight.Services.UserManagement
+	6. Flight.services.Apigateway
+	7. IdentityServer
+
 Change the appsettings.json file according to your server for the below microservices and Run "update-database" command:
 	1. Flight.Services.BookingSchedule
 	2. Flight.Services.CouponAPI
