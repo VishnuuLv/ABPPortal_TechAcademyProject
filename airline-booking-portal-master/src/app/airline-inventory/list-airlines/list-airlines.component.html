@@ -22,7 +22,7 @@
           <td>{{airport.contactNumber}}</td>
           <td>{{airport.contactAddress}}</td>
           <td  >
-            <span [ngStyle]="{'background-color': (airport.isActive==='Y' ) ?
+            <span  class="badge badge-pill badge-success"  [ngStyle]="{'background-color': (airport.isActive==='Y' ) ?
             '#81CB21'  :'#DC3D1D'}">
             {{airport.isActive==='Y' ?'Active':'InActive'}}
           </span>
